@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="module">
+        <div class="input-item">
+            <label for="name">Nome utente</label>
+            <input type="text" id="name">
+        </div>
+        <div class="input-item">
+            <label for="km">Chilometri viaggio</label>
+            <input type="text" id="km">
+        </div>
+        <div class="input-item">
+            <label for="age">Età utente</label>
+            <select id="age">
+                <option value="minorenne">minorenne</option>
+                <option value="maggiorenne">maggiorenne</option>
+                <option value="anziano">anziano</option>
+            </select>
+        </div>
+        <div class="buttons">
+            <button id="send">Invia</button>
+            <button id="clear">Cancella</button>
+        </div>
+    </section>
+
+    <section class="ticket hidden">
+        <h2>Nome passeggero</h2>
+        <h3 id="traveler"></h3>
+        <h2>Prezzo biglietto</h2>
+        <h3 id="totalPrice"></h3>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
