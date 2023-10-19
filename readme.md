@@ -28,7 +28,12 @@ Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagi
 7. SE ha meno di 18 anni applicare il 20% di sconto
 8. SE ha dai 65 anni in su applicare il 40% di sconto
 9. Riportare il prezzo in massimo 2 decimali
+10. Creare un numero Rndom da 1 a 20
+11. Creare un numero Random da 1 a 99999
 
 **Output**
 1. Nome del passeggero (HTML)
-2. Prezzo del biglietto (HTML)
+2. Offerta
+3. Carrozza
+4. Codice CP
+5. Prezzo del biglietto (HTML)
