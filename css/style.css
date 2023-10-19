@@ -1,3 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid crimson; */
+}
+
+body {
+    background-color: crimson;
+}
+
+.module,
+.ticket {
+    text-align: center;
+    padding: 2rem;
+    background-color: crimson;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.actions {
+    padding: 1.5rem;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.insert {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+    color: crimson;
+}
+
+.input-item {
+    width: 180px;
+    text-align: center;
+}
+
+.input-item h4 {
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.your-ticket {
+    background-color: white;
+    padding: 1.5rem;
+    text-align: start;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    height: 5rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-right: 3rem;
+}
+
+.userID {
+    width: 250px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: lightslategray;
+}
+
+.info-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .hidden {
     display: none;
 }
